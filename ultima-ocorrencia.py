@@ -1,4 +1,8 @@
 # Retornar a última ocorrência do número solicitado, senão estiver na lista, retornar - 1
+# count = -1
+# for i in range... if... count +=1 (-1 +1 = 0)
+# if count == -1: there's no occurence of the number
+# else: the number is in the indice {count}
 
 num = int(input('Digite um número: '))
 
